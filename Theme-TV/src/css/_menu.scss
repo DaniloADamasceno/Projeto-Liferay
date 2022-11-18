@@ -1,0 +1,126 @@
+.menu,
+.nav {
+  list-style: none;
+  margin: 0;
+  padding: 10 0 0 0;
+  width: 100%;
+  height: 60px;
+  margin: auto;
+  position: sticky;
+  background-color: var(--color-gray);
+  z-index: 7;
+  box-shadow: 0px 6px 10px 0px var(--color-gray);
+
+  li,
+  .nav-item {
+    float: left;
+    width: 25%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    &:first-child {
+      &:hover,
+      &:focus,
+      &:active {
+        & ~ .slider {
+          left: 0;
+          background-color: var(--color-gray);
+        }
+      }
+    }
+
+    // &.slider, nav-item {
+    //   width: 25%;
+    //   height: 100%;
+    //   position: absolute;
+    //   left: 0;
+    //   top: 0;
+    //   z-index: 8;
+    //   transition: left 0.4s, background-color 0.4s;
+    // }
+  }
+
+  a,
+  nav-link {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+    text-decoration: none;
+    position: sticky;
+    font-size: 18px;
+    z-index: 9;
+  }
+}
+
+// a.active{
+//   background-color: var(--color-gray);
+//   pointer-events: none;
+// }
+
+.menu li:nth-child(2):hover,
+.menu li:nth-child(2):focus,
+.menu li:nth-child(2):active {
+  & ~ .slider {
+    left: 25%;
+
+    background-color: var(--color-red);
+    text-decoration: dotted;
+  }
+}
+
+.menu li:nth-child(3):hover,
+.menu li:nth-child(3):focus,
+.menu li:nth-child(3):active {
+  & ~ .slider {
+    left: 50%;
+    background-color: var(--color-red);
+  }
+}
+
+.menu li:nth-child(4):hover,
+.menu li:nth-child(4):focus,
+.menu li:nth-child(4):active {
+  & ~ .slider {
+    left: 75%;
+    background-color: var(--color-red);
+  }
+}
+
+.col-md-12,
+.container-fluid,
+.position-relative {
+  padding: 0;
+}
+//------------ Não esta ativando o hover no menu ------------//
+
+.nav-link:nth-child(2):hover,
+.nav-link:nth-child(2):focus,
+.nav-link:nth-child(2):active {
+  & ~ .slider {
+    left: 25%;
+
+    background-color: var(--color-red);
+    text-decoration: dotted;
+  }
+}
+
+.nav-link:nth-child(3):hover,
+.nav-link:nth-child(3):focus,
+.nav-link:nth-child(3):active {
+  & ~ .slider {
+    left: 50%;
+    background-color: var(--color-red);
+  }
+}
+
+.nav-link:nth-child(4):hover,
+.nav-link:nth-child(4):focus,
+.nav-link:nth-child(4):active {
+  & ~ .slider {
+    left: 75%;
+    background-color: var(--color-red);
+  }
+}

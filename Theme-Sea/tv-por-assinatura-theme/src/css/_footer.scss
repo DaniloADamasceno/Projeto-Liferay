@@ -11,8 +11,14 @@
     color: var(--color-white) !important;
     text-decoration: none;
     list-style: none;
-    color: white;
-    a{
-        color: var(--color-white);
-    }
+}
+
+a:link {
+ text-decoration: none;
+ color: var(--color-white)
+}
+
+a:hover {
+ text-decoration: underline;
+ color: var(--color-white)
 }

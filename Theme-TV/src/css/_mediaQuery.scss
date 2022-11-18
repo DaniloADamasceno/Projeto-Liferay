@@ -1,0 +1,37 @@
+// ----------- Media Queries para Desktops ----------- //
+
+// ----------- Media Queries para Tablets----------- //
+// @media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+//   .menu {
+//     width: 400px;
+//     height: 400px;
+//     background-color: var(--color-gray);
+//     color: var(--color-white);
+//   }
+// }
+
+// // ----------- Media Queries para Celulares com ate 640px de tela (a Maioria dos aparelhos)  ----------- //
+// @media screen and (max-device-width: 640px) {
+//   .menu {
+//     width: 400px;
+//     height: 200px;
+     
+//     background-color: var(--color-gray);
+//     color: var(--color-white);
+//   }
+// }
+// // ----------- Media Queries para Celulares com ate 480px (Celulares mais antigos) de tela ----------- //
+// @media screen and (max-device-width: 320px) and (orientation: portrait) {
+//   .menu {
+//     width: 200px;
+//     height: 200px;
+//     background-color: var(--color-gray);
+//     color: var(--color-white);
+//   }
+// }
+@media (max-width: 800px) {
+  .nav,
+  .footer {
+    grid-template-columns: 1fr;
+  }
+}

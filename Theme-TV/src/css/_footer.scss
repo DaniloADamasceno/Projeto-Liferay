@@ -1,0 +1,29 @@
+.footer {
+    font-size: 12px;
+  height: 100%;
+  background-color: var(--color-gray);
+  color: var(--color-white) !important;
+  padding: 1.5rem 0;
+  text-align: center;
+  list-style: none !important;
+}
+.footer > ul{
+    color: var(--color-white) !important;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+a{
+    color: var(--color-white);
+}
+a:link {
+ text-decoration: none;
+ color: var(--color-white);
+}
+
+a:hover {
+ text-decoration: none;
+  color: var(--color-white);
+  box-shadow: var(--color-red 0px 0px 0px 1px);
+}

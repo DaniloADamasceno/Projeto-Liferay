@@ -1,0 +1,23 @@
+O site deve conter no mínimo:
+
+[x]Tema customizado do Liferay com a estilização do Site (CSS);
+[x]Cabeçalho e rodapé;
+[x]Menu de navegação;
+[]Página de Sobre;
+[]ADT de listagem de conteúdos;
+[]Uma estrutura que receba pelo menos as informações:
+[]Título;
+[]Chamada / sutiã;
+[]Conteúdo;
+[]Imagem de destaque;
+[]Carrossel de imagens;
+[]Um modelo que exibe as informações da estrutura;
+[]Na exibição da notícia utilizar fragmento de página mapeando os campos da estrutura;
+[]Página de listagem de conteúdo. Ex: Notícias;
+
+Itens desejados (não é obrigatório, mas será um plus):
+
+[]Responsivo;
+[]Portlet customizado;
+[]Auto contraste;
+[]Libras;

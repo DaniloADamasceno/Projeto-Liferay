@@ -1,0 +1,50 @@
+.bg-blue {
+  &,
+  &::before {
+    background: $light-cyan-blue;
+  }
+}
+
+.bg-cyan-blue {
+  &,
+  &::before {
+    background: $vivid-cyan-blue;
+  }
+}
+
+.bg-cyan-green {
+  &,
+  &::before {
+    background: $vivid-green-cyan;
+  }
+}
+
+.bg-black {
+  &,
+  &::before {
+    background: $black;
+  }
+}
+
+.bg-dark-black {
+  &,
+  &::before {
+    background: black;
+  }
+}
+
+[class*="bg-"] {
+  position: relative;
+  &.semi-bg {
+    background: transparent !important;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 50%;
+      z-index: -1;
+    }
+  }
+}
