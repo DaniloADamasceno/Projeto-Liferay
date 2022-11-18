@@ -1,0 +1,19 @@
+.footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #45b97c;
+  border-top: 5px solid #346399;
+  &,
+  .nav-link {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .nav-item {
+    padding: 0.5rem 0;
+  }
+
+  .nav-link {
+    padding: 0;
+  }
+}

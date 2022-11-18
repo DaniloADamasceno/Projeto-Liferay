@@ -1,0 +1,23 @@
+html {
+  font-size: 62.5%; /* para converter a pagina em Rems */
+  scroll-behavior: smooth; /* para fazer a pagina rolar lentamete */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif, "PT Sans", Arial, Verdana;
+  background-color: $color-white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #161819;
+}
+header {
+  background-color: var($color-gray);
+  display: flex;
+}

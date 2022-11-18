@@ -1,0 +1,96 @@
+
+.site-name {
+  font-size: 2rem;
+  margin-bottom: 0;
+  color: $black;
+  text-transform: uppercase;
+  & + .sigla {
+    font-size: 18px;
+    font-weight: 500;
+    color: $black;
+  }
+}
+
+.topo-titulo-site {
+  padding: 2rem 0;
+  background: $white;
+
+  @include media-breakpoint-down(sm) {
+    .site-name {
+      font-size: 28px;
+    }
+
+    .btn-group {
+      margin-top: 20px;
+    }
+  }
+}
+
+.fale-com-a-secretaria {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  border-radius: 10px !important;
+  display: flex;
+  align-items: center;
+  padding: 4px 20px 4px 12px;
+  .inline-item-before {
+    font-size: 26px;
+  }
+  &:hover {
+    -webkit-filter: brightness(1.1);
+  }
+}
+
+.social-networks {
+  @include media-breakpoint-down(md) {
+    width: 100%;
+  }
+
+  @media (max-width: 439px) {
+    .fale-com-a-secretaria {
+      margin: 20px 0 0 0 !important;
+    }
+  }
+}
+
+.gdf-e-busca {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  .busca {
+    .input-group-inset:focus ~ .input-group-inset-item {
+      background: $vivid-cyan-blue;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    .gdf {
+      width: 30%;
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .busca {
+      width: 70%;
+    }
+  }
+
+}
+
+.menubar {
+  background: $vivid-cyan-blue;
+  @include media-breakpoint-down(sm) {
+    .nav {
+      padding: 20px 0;
+      > li {
+        width: 100%;
+      }
+    }
+  }
+}
+
+#banner {
+  display: flex;
+  flex-direction: column;
+}

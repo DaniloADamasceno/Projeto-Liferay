@@ -1,0 +1,50 @@
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+  .menu {
+    background-color: var($color-white);
+    color: #fff;
+  }
+}
+ 
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+  .menu {
+    width: 400px;
+    height: 400px;
+    background-color: var($color-gray);
+    color: var($color-white);
+  }
+}
+ 
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+  .menu {
+    width: 200px;
+    height: 200px;
+    background-color: var($color-gray);
+    color: var($color-white);
+  }
+}
+ 
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px)
+and (orientation: landscape) {
+  .gfg-div {
+    width: 400px;
+    height: 200px;
+    background-color: var($color-gray);
+    color: var(--color-white);
+  }
+}
+ 
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+  .gfg-div {
+    width: 400px;
+    height: 200px;
+    background-color: var($color-gray);
+    color: var(--color-white);
+  }
+}
