@@ -1,5 +1,5 @@
 html {
-  font-size: 62.5%;         /* para converter a pagina em Rems */
+  font-size: 62.5%; /* para converter a pagina em Rems 1rem => 10px*/
   scroll-behavior: smooth; /* para fazer a pagina rolar lentamete */
 }
 
@@ -8,21 +8,43 @@ body {
   padding: 0;
   font-family: "Montserrat", sans-serif, "PT Sans", Arial, Verdana;
   background-color: var(--color-white);
-  
+  max-width: 100%;
+  min-height: 15vh;
 }
-body > .container-fluid{
+body > .container-fluid {
   padding: 0;
   margin: 0;
 }
 
-h1 {
-  text-align: center;
-  font-size: 48px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: var(--color-gray);
-}
 header {
   background-color: var(--color-gray);
   display: flex;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4, 8rem;
+  text-transform: uppercase;
+}
+h2 {
+  letter-spacing: 0, 2rem;
+  margin-left: 3.5rem;
+  font-size: 2, 8rem;
+  font-weight: 800;
+  font-family: "Montserrat", sans-serif;
+  color: var(--color-gray);
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  margin-bottom: 3rem;
+  margin-left: 2rem;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
 }
