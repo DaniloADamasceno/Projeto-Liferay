@@ -3,7 +3,7 @@ O site deve conter no mínimo:
 [x]Tema customizado do Liferay com a estilização do Site (CSS);
 [x]Cabeçalho e rodapé;
 [x]Menu de navegação;
-[]Página de Sobre;
+[x]Página de Sobre;
 []ADT de listagem de conteúdos;
 []Uma estrutura que receba pelo menos as informações:
 []Título;

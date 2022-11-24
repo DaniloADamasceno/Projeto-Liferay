@@ -13,3 +13,21 @@
     height: 100%;
     object-fit: cover;
 }
+
+.asset-title, .d-inline, .portlet-asset-publisher .asset-title {  // Titulo da noticia
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: "Montserrat", sans-serif, "PT Sans", Arial, Verdana;
+    color: var(--color-gray);
+}
+.asset-summary {
+    padding-left: 2.5rem;
+    font-size: 1rem;
+    font-family: "Poppins", sans-serif;
+    color: var(--color-gray);
+}
+
+.clearfix, .lfr-pagination {
+
+    color: #525574 !important;
+}
