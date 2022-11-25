@@ -24,13 +24,13 @@ header {
 h1 {
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-size: 4, 8rem;
+  font-size: 3.5rem;
   text-transform: uppercase;
 }
 h2 {
   letter-spacing: 0, 2rem;
   margin-left: 3.5rem;
-  font-size: 2, 8rem;
+  font-size: 2.8rem;
   font-weight: 800;
   font-family: "Montserrat", sans-serif;
   color: var(--color-gray);
@@ -47,4 +47,8 @@ p {
   margin-left: 2rem;
   font-size: 1rem;
   font-family: "Poppins", sans-serif;
+}
+//------ Títulos dos textos Liferay -----------//
+.portlet-title-text{
+  display: none;
 }
