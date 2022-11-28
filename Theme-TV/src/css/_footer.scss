@@ -27,15 +27,15 @@
   padding: 0.3rem;
 }
 
-a {
+.footer > a {
   color: var(--color-white);
 }
-a:link {
+.footer > a:link {
   text-decoration: none;
   color: var(--color-white);
 }
 
-a:hover {
+.footer > a:hover {
   text-decoration: none;
   color: var(--color-white);
   box-shadow: var(--color-red 0px 0px 0px 1px);
