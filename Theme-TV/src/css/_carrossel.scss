@@ -1,4 +1,12 @@
 .d-block, .w-100 {
-    border-radius: 4.5rem;
+    border-radius: 2.5rem;
     display: contents;
+    // height: max-content;
+    // width: max-content;
+}
+
+.carousel-inner > .carousel-item > img {
+  width: 1000px;
+  height: 600px; 
+   -webkit-mask-image: linear-gradient(to top, black 25%, black 100%);
 }

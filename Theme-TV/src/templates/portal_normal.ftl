@@ -105,9 +105,8 @@
 								<a class="${logo_css_class}" href="${site_default_url}" title="<@liferay.language_format arguments=" ${site_name}" key="go-to-x" />">
 								<img src="${themeDisplay.getPathThemeImages()}/sky-logo-0.png" alt="logo Sky" width=60px height=60px />
 							</li>
-							<li><a href="http://localhost:8080/conheca-nossos-pacotes">Conheça nossos Pacotes</a></li>
-							<li><a href="http://localhost:8080/pacotes-super">Pacotes SUPER</a></li>
-							<li><a href="http://localhost:8080/filmes-e-series">PFilmes e Séries</a></li>
+							<li><a href="http://localhost:8080/nossos-pacotes">Conheça nossos Pacotes</a></li>
+							<li><a href="http://localhost:8080/noticias">Notícias</a></li>
 							<li><a href="http://localhost:8080/sobre">SOBRE</a></li>
 							<li></li>
 						</ul>
