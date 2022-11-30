@@ -26,3 +26,10 @@ html {
     font-size: 1.6rem;
   }
 }
+
+@media (max-width: 800px) {
+  .menu,
+.nav {
+    grid-template-columns: 1fr;
+  }
+}

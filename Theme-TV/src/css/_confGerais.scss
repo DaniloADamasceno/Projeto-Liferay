@@ -8,9 +8,7 @@ body {
   padding: 0;
   font-family: "Montserrat", sans-serif, "PT Sans", Arial, Verdana;
   background-color: var(--color-white);
-  max-width: 100%;
-  min-height: 15vh;
-}
+ }
 body > .container-fluid {
   padding: 0;
   margin: 0;
@@ -29,7 +27,7 @@ h1 {
 }
 h2 {
   letter-spacing: 0, 2rem;
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   font-weight: 800;
   font-family: "Montserrat", sans-serif;
   color: var(--color-gray);
@@ -50,4 +48,21 @@ p {
 //------ Títulos dos textos Liferay -----------//
 .portlet-title-text{
   display: none;
+}
+.autofit-float .autofit-row .portlet-header {
+  display: none;
+}
+
+//--------------------------------
+//%%   Botão Dark Mode e Light Mode
+//--------------------------------
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
 }

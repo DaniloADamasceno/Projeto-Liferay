@@ -30,13 +30,30 @@ Liferay.Portlet.ready(function (_portletId, _node) {});
  * This function gets loaded when everything, including the portlets, is on
  * the page.
  */
-Liferay.on('allPortletsReady', function () {});
 
-// function () {
-//     if (Liferay.lastModifiedDate) {
-//           /* VLIBRAS */
-//     if (window.VLibras) {
-//       new window.VLibras.Widget("https://vlibras.gov.br/app");
-//     }
-//     }
-// }
+
+  //------------------------------------
+    //  Dark mode - Light mode
+    //----------------------------------
+ 
+    //%%---- Dark mode Scrip não esta funcionando ainda ----%%//
+
+    // $(".dark-mode").on("click", function (e) {
+    //   e.preventDefault();
+    //   $(".dark-mode").removeClass("active");
+    //   $(".dark-mode").addClass("active");
+    //   $(".light-mode").removeClass("active");
+    //   $(".light-mode").addClass("active");
+    //   $("b.portlet-content").addClass("dark-mode");
+    //   $(".portlet-content").removeClass("light-mode");
+    // });
+
+    // $(".light-mode").on("click", function (e) {
+    //   e.preventDefault();
+    //   $(".light-mode").removeClass("active");
+    //   $(".light-mode").addClass("active");
+    //   $(".dark-mode").removeClass("active");
+    //   $(".dark-mode").addClass("active");
+    //   $(".portlet-content").addClass("light-mode");
+    //   $(".portlet-content").removeClass("dark-mode");
+    // });
