@@ -105,9 +105,8 @@
 								<a class="${logo_css_class}" href="${site_default_url}" title="<@liferay.language_format arguments=" ${site_name}" key="go-to-x" />">
 								<img src="${themeDisplay.getPathThemeImages()}/sky-logo-0.png" alt="logo Sky" width=60px height=60px />
 							</li>
-							<li><a href="http://localhost:8080/conheca-nossos-pacotes">Conheça nossos Pacotes</a></li>
-							<li><a href="http://localhost:8080/pacotes-super">Pacotes SUPER</a></li>
-							<li><a href="http://localhost:8080/filmes-e-series">PFilmes e Séries</a></li>
+							<li><a href="http://localhost:8080/nossos-pacotes">Conheça nossos Pacotes</a></li>
+							<li><a href="http://localhost:8080/noticias">Notícias</a></li>
 							<li><a href="http://localhost:8080/sobre">SOBRE</a></li>
 							<li></li>
 						</ul>
@@ -125,7 +124,17 @@
 	<!-- inject:js -->
 	<!-- endinject -->
 	<#-- Incersão do ViLibras (Widget lateral no portal ) -->
-		<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+  </div>
+
+		 <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
 </body>
 
 </html>

@@ -5,3 +5,42 @@
   line-height: 40px;
   text-align: center;
 }
+.grid-pacotes {
+  display: flex;
+  flex: 1 0 50%;
+  white-space: nowrap;
+  text-align: center;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.clearfix {
+  text-align: center;
+}
+
+.titulo-pacote {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: var(--color-gray);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.miolo, .clearfix, #02-title {
+  background-color: var(--color-red);
+  color: var(--color-gray);
+  text-align: center;
+  align-items: center;
+}
+button-wats > button {
+  color: var(--color-white);
+  background-color: #34af23;
+  font-size: 12px;
+  border: 0px solid #005c0f;
+  border-radius: 16px;
+  padding: 15px 50px;
+  cursor: pointer;
+  align-items: center;
+}
+button:hover {
+  color: #003d07;
+  background-color: #ffffff;
+}

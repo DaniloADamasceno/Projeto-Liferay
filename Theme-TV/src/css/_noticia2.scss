@@ -31,62 +31,6 @@
 			margin-right: 0;
 		}
 	}
-	.card-summary {
-		padding: 5% 5% 3% 5%;
-	}
-	.card-header {
-		position: relative;
-		height: 175px;
-		overflow: hidden;
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center;
-		background-color: var(--color-white);
- 		background-blend-mode: overlay;
-        border-radius:(4px 4px 0 0);
-		&:hover, &:focus {
-			background-color: var(--color-white);
-		}
-	}
-
-	.card-title {
-		background:var(--color-red);
-		padding: 3.5% 0 2.5% 0;
-		color: var(--color-white);
-		text-transform: uppercase;
-		position: absolute;
-		bottom: 0;
-		width: 100%;
-		h3 {
-			font-size: 1.2em;
-			line-height: 1.2;
-			padding: 0 3.5%;
-			margin: 0;
-		}
-	}
-
-	.card-meta {
-		max-height: 0;
-		overflow: hidden;
-		color: #666;
-		font-size: .78em;
-		text-transform: uppercase;
-		position: absolute;
-		bottom: 5%;
-		padding: 0 5%;
-	}
-    .card-meta:hover,  .card-meta:focus {
-		background:var(--color-white);
-        box-shadow:(rgba(var(--color-gray), 0.45) 0px 0px 20px 0px);
-		.card-title {
-			background: var(--color-red);
-		}
-		.card-meta {
-			max-height: 1em;
-		}
-	} 
-
-
 img {
 	max-width: 100%; 
 }

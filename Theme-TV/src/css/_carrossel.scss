@@ -1,4 +1,17 @@
 .d-block, .w-100 {
-    border-radius: 4.5rem;
+    //border-radius: 2.5rem;
     display: contents;
+    // height: max-content;
+    // width: max-content;
+}
+
+.carousel-inner > .carousel-item > img {
+  width: 1000px;
+  height: 600px; 
+background: radial-gradient(circle, var(--color-gray) 0%, rgba(24,24,24,1) 100%);
+}
+.carousel-caption > h5 > a >p {
+   margin-bottom: 0;
+   font-style: italic;
+   font-size: 0.3rem;
 }

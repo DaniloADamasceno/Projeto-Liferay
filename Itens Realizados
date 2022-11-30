@@ -4,20 +4,20 @@ O site deve conter no mínimo:
 [x]Cabeçalho e rodapé;
 [x]Menu de navegação;
 [x]Página de Sobre;
-[]ADT de listagem de conteúdos;
-[]Uma estrutura que receba pelo menos as informações:
-[]Título;
-[]Chamada / sutiã;
-[]Conteúdo;
-[]Imagem de destaque;
-[]Carrossel de imagens;
+[x]ADT de listagem de conteúdos;
+[x]Uma estrutura que receba pelo menos as informações:
+[x]Título;
+[x]Chamada / sutiã;
+[x]Conteúdo;
+[x]Imagem de destaque;
+[x]Carrossel de imagens;
 []Um modelo que exibe as informações da estrutura;
 []Na exibição da notícia utilizar fragmento de página mapeando os campos da estrutura;
-[]Página de listagem de conteúdo. Ex: Notícias;
+[x]Página de listagem de conteúdo. Ex: Notícias;
 
 Itens desejados (não é obrigatório, mas será um plus):
 
 []Responsivo;
 []Portlet customizado;
 []Auto contraste;
-[]Libras;
+[x]Libras;
