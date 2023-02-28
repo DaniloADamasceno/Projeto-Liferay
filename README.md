@@ -2,7 +2,15 @@
 <p>Estes projetos foram criados para ajudar a colocar em prática os conhecimentos adquiridos sobre Liferay e suas ferramentas.</p>
 <p>Este repositório é ideal para desenvolvedores que já tem alguma experiência com Liferay e desejam aprimorar suas habilidades, aprendendo com exemplos práticos e projetos reais.</p>
 
+![GitHub repo size](https://img.shields.io/github/repo-size/DaniloADamasceno/Projeto-Liferay=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/DaniloADamasceno/Projeto-Liferay?style=for-the-badge)
 <hr>
 <br>
 
 ![Img Liferay](https://github.com/DaniloADamasceno/Projeto-Liferay/blob/main/Liferay-logo.png)
+
+
+
+## Autores
+
+- [@DaniloADamasceno](https://github.com/DaniloADamasceno)
