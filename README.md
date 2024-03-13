@@ -1,4 +1,4 @@
-# Projetos-Liferay
+# Projetos Liferay
 
 </hr>
 </br>
@@ -7,7 +7,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/DaniloADamasceno/Projeto-Liferay?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/DaniloADamasceno/Projeto-Liferay?style=for-the-badge)
 
-[![wakatime](https://wakatime.com/badge/github/DaniloADamasceno/Projeto-Liferay.svg)](https://wakatime.com/badge/github/DaniloADamasceno/Projeto-Liferay)
+[![Repository Views](https://komarev.com/ghpvc/?username=DaniloADamascenoProjeto&label=Views&color=brightgreen)](https://github.com/DaniloADamasceno/Projeto-Liferay)
 
 
 <!-- Imagem da Tela inicial do Aplicativo -->
@@ -19,7 +19,7 @@
 </br>
 </br>
 
-## Descrição do Projeto
+### 📃 Descrição do Projeto
 
 </br>
 
@@ -27,7 +27,8 @@ Este é um repositório destinado a trabalhos relacionados ao **Liferay**. Nele 
 Estes projetos foram criados para ajudar a colocar em prática os conhecimentos adquiridos sobre Liferay e suas ferramentas.
 Este repositório é ideal para desenvolvedores que já tem alguma experiência com Liferay e desejam aprimorar suas habilidades, aprendendo com exemplos práticos e projetos reais.
 
-### Contribuição
+
+## 📦 Contribuição
 
 Este é um projeto de código aberto e estou aberto a contribuições da comunidade.
 Se desejar contribuir para este projeto, siga estas etapas:
@@ -39,7 +40,7 @@ Se desejar contribuir para este projeto, siga estas etapas:
 5. Envie para o branch principal do repositório original: *git push origin main*.
 6. Abra um pull request no GitHub.
 
-## Stack utilizada
+## 🛠️ Stack utilizadas
 
 **FreeMarker**
 **Scss**
@@ -50,21 +51,22 @@ Se desejar contribuir para este projeto, siga estas etapas:
 
 </br>
 
+## ✒️ Autores
+
+Mencione todos aqueles que ajudaram a levantar o projeto desde o seu início
+
+* **Desenvolvedor** -  [@Danilo A. Damasceno](https://github.com/DaniloADamasceno/)
+* **Documentação** -   [@Danilo A. Damasceno](https://github.com/DaniloADamasceno/)
 
 
-## Autores
+</br></br></br>
+</hr>
 
-- [@Danilo A. Damasceno](https://github.com/DaniloADamasceno/)
+## 📄 Atualizações de Projeto e suas Versões
 
-</br>
-</br>
-</br>
 
-________________________________________________________________________________________________________________________________________________________________
+### **Atualização**: 1.0.0:
 
-## Atualizações do Projeto
-
-*Atualização* 1.01.0:
-> Adicionada imagem ao Readme e correções gramaticais.
-> --> **PROJETO EM CONCLUÍDO.**
+- Adicionada imagem ao Readme e correções gramaticais.
+- --> **PROJETO EM CONCLUÍDO.**
 </br>
